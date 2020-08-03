@@ -51,7 +51,7 @@ if not WGET_AT:
 #
 # Update this each time you make a non-cosmetic change.
 # It will be added to the WARC files and reported to the tracker.
-VERSION = '20200803.01'
+VERSION = '20200803.02'
 USER_AGENT = 'Archive Team'
 TRACKER_ID = 'microsoft-download-center'
 TRACKER_HOST = 'trackerproxy.meo.ws'

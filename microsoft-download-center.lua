@@ -26,6 +26,7 @@ wget.callbacks.httploop_result = function(url, err, http_stat)
   if downloaded[url["url"]] then
     io.stdout:write("Already saw that URL.\n")
     io.stdout:flush()
+    abortgrab = true
   end
 
   downloaded[url["url"]] = true
